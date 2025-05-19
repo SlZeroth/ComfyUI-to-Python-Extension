@@ -11,6 +11,7 @@ from argparse import ArgumentParser
 
 import black
 
+sys.path.insert(0, "../")
 
 from comfyui_to_python_utils import (
     import_custom_nodes,
